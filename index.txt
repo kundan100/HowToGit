@@ -19,6 +19,7 @@ git add directory_name
 git config --list
 git config user.name
 //Set git config settings
+git config user.name "user name"
 git config --global user.name "user name"
 git config --global user.email user@domain.com
 git config --global core.editor editor_name
