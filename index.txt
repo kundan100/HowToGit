@@ -9,3 +9,16 @@ git checkout brnach_name
 //The "git add" command adds a 'change in the working directory' to the staging area. Changes are not actually recorded until you run 'git commit'
 git add file_name
 git add directory_name
+
+
+
+
+
+/////git settings
+//List git config settings
+git config --list
+git config user.name
+//Set git config settings
+git config --global user.name "user name"
+git config --global user.email user@domain.com
+git config --global core.editor editor_name
