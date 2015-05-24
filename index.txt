@@ -1,9 +1,18 @@
+//Create branch
+git branch branch_name
+
 //List branches
 git branch
 git branch -a
 
 //Switch branch
 git checkout brnach_name
+
+//Merge Branch (say, you are @ master branch, and want to merge temp_branch in master)
+git checkout master
+git merge temp_branch
+git push origin master
+
 
 /////Saving Changes @ https://www.atlassian.com/git/tutorials/saving-changes/git-commit
 //The "git add" command adds a 'change in the working directory' to the staging area. Changes are not actually recorded until you run 'git commit'
